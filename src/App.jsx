@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import componentImg from "./assets/components.png";
 import stateImg from "./assets/state-mgmt.png";
 import jsxImg from "./assets/jsx-ui.png";
+import configImg from "./assets/config.png";
+import { CORE_CONCEPTS } from "./data";
 function App() {
   return (
     <div>
@@ -11,24 +13,28 @@ function App() {
         <section id="core-concepts">
           <ul>
             <CoreConcepts
-              title="Components"
-              description="The Core UI building Block"
-              image={componentImg}
+              // title="Components"
+              // description="The Core UI building Block"
+              // image={componentImg}
+              {...CORE_CONCEPTS[0]}
             />
             <CoreConcepts
-              title="State"
-              description="Enable Dynamic and interactive User Interfaces"
-              image={stateImg}
+              // title="State"
+              // description="Enable Dynamic and interactive User Interfaces"
+              // image={stateImg}
+              {...CORE_CONCEPTS[1]}
             />
             <CoreConcepts
-              title="Javascript XML"
-              description="Describes UI components with HTML-like syntax"
-              image={jsxImg}
+              // title="Javascript XML"
+              // description="Describes UI components with HTML-like syntax"
+              // image={jsxImg}
+              {...CORE_CONCEPTS[2]}
             />
             <CoreConcepts
-              title="Components"
-              description="The Core UI building Block"
-              image={componentImg}
+              // title="Props"
+              // description="Make components configurable (and therefore reusable) by passing input data to them"
+              // image={configImg}
+              {...CORE_CONCEPTS[3]}
             />
           </ul>
         </section>
