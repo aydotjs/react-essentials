@@ -1,5 +1,6 @@
 import CoreConcepts from "./components/CoreConcepts/CoreConcepts";
 import Header from "./components/Header/Header";
+import TabButton from "./components/TabButton";
 // import componentImg from "./assets/components.png";
 // import stateImg from "./assets/state-mgmt.png";
 // import jsxImg from "./assets/jsx-ui.png";
@@ -37,6 +38,15 @@ function App() {
               {...CORE_CONCEPTS[3]}
             />
           </ul>
+        </section>
+        <section id="examples">
+          <h2>Examples</h2>
+          <menu>
+            <TabButton>Components</TabButton>
+            <TabButton>JSX</TabButton>
+            <TabButton>Props</TabButton>
+            <TabButton>States</TabButton>
+          </menu>
         </section>
       </main>
     </div>

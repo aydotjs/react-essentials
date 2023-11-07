@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css"
-import reactImage from "../assets/react-core-concepts.png"
+import reactImage from "../../assets/react-core-concepts.png"
 const randomReactDescriptions = ["Fundamental", "Dynamic", "Core", "Basic"];
 const getRandomInteger = (max) => Math.floor(Math.random() * (max + 1));
 const Header = () => {
