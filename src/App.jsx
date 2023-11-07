@@ -1,9 +1,9 @@
-import CoreConcepts from "./components/CoreConcepts";
-import Header from "./components/Header";
-import componentImg from "./assets/components.png";
-import stateImg from "./assets/state-mgmt.png";
-import jsxImg from "./assets/jsx-ui.png";
-import configImg from "./assets/config.png";
+import CoreConcepts from "./components/CoreConcepts/CoreConcepts";
+import Header from "./components/Header/Header";
+// import componentImg from "./assets/components.png";
+// import stateImg from "./assets/state-mgmt.png";
+// import jsxImg from "./assets/jsx-ui.png";
+// import configImg from "./assets/config.png";
 import { CORE_CONCEPTS } from "./data";
 function App() {
   return (
